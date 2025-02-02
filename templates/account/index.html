@@ -1,0 +1,14 @@
+{% extends 'account/base.html' %}
+{% block content %}
+<h1>こちらは諏訪部貫太_ポートフォリオです</h1>
+
+{% if user.is_authenticated %}
+    <p>ユーザー名: {{ user.username }}</p>
+    <a href="{% url 'account:logout' %}">ログアウト</a>
+{% elif passwd == truepass %}
+    <img src="https://qr-official.line.me/gs/M_468gazzj_GW.png?oat_content=qr">
+{% else %}
+    <p>特別なURLでアクセスした場合にQRコードが表示されます。</p>
+    <p>お送りしたURL全文をコピーしてアクセスしてください。</p>
+{% endif %}
+{% endblock %}
