@@ -15,6 +15,9 @@ LINEからChatGPTへ質問でき、生成AIの良さを体感できるアプリ�
 * Django 5.1.4
 * langchain_core 0.3.33
 * langchain_openai 0.3.3
+  
+* WEBサーバー:awsのt2.micro
+* アプリサーバー:同上
 
 
 # Usage
