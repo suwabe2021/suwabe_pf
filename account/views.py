@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
 from django.conf import settings
+from django.http import HttpResponseRedirect
 
 #LINE BUSINESSで設定したリダイレクトと同じURLを読み込む
 REDIRECT_KEY = settings.REDIRECT_KEY
@@ -27,6 +28,10 @@ class IndexView(View):
 class Authentication(View):
     def get(self, request, passwd):
         return render_with_context(request, passwd)
+
+
+def custom_404_view(request, exception):
+    return HttpResponseRedirect('/login/')
 
 
 #クラスベースビューのインスタンス化

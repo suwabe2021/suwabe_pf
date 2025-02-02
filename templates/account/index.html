@@ -2,13 +2,13 @@
 {% block content %}
 <h1>こちらは諏訪部貫太_ポートフォリオです</h1>
 
-{% if user.is_authenticated %}
-    <p>ユーザー名: {{ user.username }}</p>
-    <a href="{% url 'account:logout' %}">ログアウト</a>
-{% elif passwd == truepass %}
+{% if passwd == truepass %}
     <img src="https://qr-official.line.me/gs/M_468gazzj_GW.png?oat_content=qr">
+    <p>上記QRコードをLINEで読み取り友だち追加をお願いします。</p>
+    <p>追加された友だちに質問するとChatGPTが回答します。</p>
+    <p><a href="https://github.com/suwabe2021/suwabe_pf">お手数ですがコードはGitHubでご確認ください。</a></p>
 {% else %}
     <p>特別なURLでアクセスした場合にQRコードが表示されます。</p>
-    <p>お送りしたURL全文をコピーしてアクセスしてください。</p>
+    <p>お伝えしたURL全文をコピーしてアクセスしてください。</p>
 {% endif %}
 {% endblock %}

@@ -41,7 +41,7 @@ ACCESSTOKEN = config_data["ACCESSTOKEN"]
 OPENAI_API_KEY = config_data["OPENAI_API_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = PRIVATE_IPS + DOMAINS + ["localhost", "127.0.0.1"]
 
