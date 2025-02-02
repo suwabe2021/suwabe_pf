@@ -16,6 +16,7 @@ LINEからChatGPTへ質問でき、生成AIの良さを体感できるアプリ�
 * langchain_core 0.3.33
 * langchain_openai 0.3.3
 
+
 * OS:Ubuntu 24.04.1 LTS
 * WEBサーバー:AWSのEC2 t2.micro
 * アプリサーバー:同上
