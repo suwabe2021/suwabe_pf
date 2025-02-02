@@ -10,13 +10,13 @@ LINEからChatGPTへ質問でき、生成AIの良さを体感できるアプリ�
 
 面倒な手順なく使用開始できるようにしております。
 
-# 環境
+# インストール
 * Python 3.12.3
 * Django 5.1.4
 * langchain_core 0.3.33
 * langchain_openai 0.3.3
 
-
+# 環境
 * OS:Ubuntu 24.04.1 LTS
 * WEBサーバー:AWSのEC2 t2.micro
 * アプリサーバー:同上
