@@ -23,7 +23,7 @@ LINEからChatGPTへ質問でき、生成AIの良さを体感できるアプリ�
 * データベース:PostgreSQL 16.6
 
 
-# Usage
+# 使い方
 https://suwabe2021.ddns.net/login/wodalplchu958guchud/
 
 上記にアクセスして表示されるLINEのQRコードを読み取り友だち追加をしてください。
