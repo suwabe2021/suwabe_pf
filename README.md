@@ -24,7 +24,8 @@ LINEからChatGPTへ質問でき、生成AIの良さを体感できるアプリ�
 
 
 # 使い方
-https://suwabe2021.ddns.net/login/wodalplchu958guchud/
+~~https://suwabe2021.ddns.net/login/wodalplchu958guchud/~~
+※AWSの維持管理費用がかかるのでサーバは閉鎖しました(25/2/15)。
 
 上記にアクセスして表示されるLINEのQRコードを読み取り友だち追加をしてください。
 
